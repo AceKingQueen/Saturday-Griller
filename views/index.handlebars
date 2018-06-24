@@ -3,7 +3,7 @@
 <h2>Throw it on the grill</h2>
 
 <ul>
-  {{#each food}}
+  {{#each foods}}
     {{#unless grilled}}
       {{> foods/food-block grill=true}}
     {{/unless}}
@@ -13,7 +13,7 @@
 <h2>Save it for later</h2>
 
 <ul>
-  {{#each food}}
+  {{#each foods}}
     {{#if grilled}}
       {{> foods/food-block grill=false}}
     {{/if}}

@@ -3,20 +3,20 @@ var express = require("express");
 var router = express.Router();
 
 // Import the model (food.js) to use its database functions.
-var food = require("../models/food");
+var food = require("../models/food.js");
 
 // Create all our routes and set up logic within those routes where required.
 router.get("/", function(req, res) {
   food.all(function(data) {
     var hbsObject = {
-      food: data
+      foods: data
     };
     console.log(hbsObject);
     res.render("index", hbsObject);
   });
 });
 
-router.post("/api/food", function(req, res) {
+router.post("/api/foods", function(req, res) {
   food.create([
     "name", "grilled"
   ], [
@@ -27,7 +27,7 @@ router.post("/api/food", function(req, res) {
   });
 });
 
-router.put("/api/food/:id", function(req, res) {
+router.put("/api/foods/:id", function(req, res) {
   var condition = "id = " + req.params.id;
 
   console.log("condition", condition);
@@ -44,7 +44,7 @@ router.put("/api/food/:id", function(req, res) {
   });
 });
 
-router.delete("/api/food/:id", function(req, res) {
+router.delete("/api/foods/:id", function(req, res) {
   var condition = "id = " + req.params.id;
 
   food.delete(condition, function(result) {

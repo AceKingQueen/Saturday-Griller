@@ -9,7 +9,7 @@ $(function() {
     };
 
     // Send the PUT request.
-    $.ajax("/api/food/" + id, {
+    $.ajax("/api/foods/" + id, {
       type: "PUT",
       data: newGrillState
     }).then(
@@ -31,7 +31,7 @@ $(function() {
     };
 
     // Send the POST request.
-    $.ajax("/api/food", {
+    $.ajax("/api/foods", {
       type: "POST",
       data: newFood
     }).then(
@@ -47,7 +47,7 @@ $(function() {
     var id = $(this).data("id");
 
     // Send the DELETE request.
-    $.ajax("/api/food/" + id, {
+    $.ajax("/api/foods/" + id, {
       type: "DELETE"
     }).then(
       function() {
