@@ -1,12 +1,11 @@
-### Schema
+DROP DATABASE IF EXISTS grilling_db;
+CREATE DATABASE grilling_db;
+USE grilling_db;
 
-CREATE DATABASE cat_db;
-USE cat_db;
-
-CREATE TABLE cats
+CREATE TABLE food
 (
 	id int NOT NULL AUTO_INCREMENT,
 	name varchar(255) NOT NULL,
-	sleepy BOOLEAN DEFAULT false,
+	grilled BOOLEAN DEFAULT false,
 	PRIMARY KEY (id)
 );

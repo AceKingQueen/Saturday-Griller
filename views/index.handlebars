@@ -3,9 +3,9 @@
 <h2>Throw it on the grill</h2>
 
 <ul>
-  {{#each cats}}
-    {{#unless sleepy}}
-      {{> cats/cat-block sleep=true}}
+  {{#each food}}
+    {{#unless grilled}}
+      {{> foods/food-block grill=true}}
     {{/unless}}
   {{/each}}
 </ul>
@@ -13,9 +13,9 @@
 <h2>Save it for later</h2>
 
 <ul>
-  {{#each cats}}
-    {{#if sleepy}}
-      {{> cats/cat-block sleep=false}}
+  {{#each food}}
+    {{#if grilled}}
+      {{> foods/food-block grill=false}}
     {{/if}}
   {{/each}}
 </ul>
@@ -29,10 +29,10 @@
   </div>
 
   <div class="form-group">
-    <label for="sleepy">Grill It?</label><br>
-    <input type="radio" name="sleepy" value="1" checked>Throw it on the grill!<br>
-    <input type="radio" name="sleepy" value="0">Save it for later
+    <label for="grilled">Grill It?</label><br>
+    <input type="radio" name="grilled" value="1" checked> Throw it on the grill!<br>
+    <input type="radio" name="grilled" value="0">Save it for later
   </div>
 
-  <button type="submit">Add Cat</button>
+  <button type="submit">Add Food</button>
 </form>
