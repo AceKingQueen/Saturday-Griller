@@ -3,7 +3,8 @@ $(function() {
   $(".change-grill").on("click", function(event) {
     var id = $(this).data("id");
     var newGrill = $(this).data("newgrill");
-
+    console.log(id)
+    console.log(newGrill)
     var newGrillState = {
       grilled: newGrill
     };

@@ -4,9 +4,9 @@
 
 <ul>
   {{#each foods}}
-    {{#unless grilled}}
-      {{> foods/food-block grill=true}}
-    {{/unless}}
+    {{#if grilled}}
+      {{> foods/food-block grill=false}}
+    {{/if}}
   {{/each}}
 </ul>
 
@@ -14,9 +14,9 @@
 
 <ul>
   {{#each foods}}
-    {{#if grilled}}
-      {{> foods/food-block grill=false}}
-    {{/if}}
+    {{#unless grilled}}
+      {{> foods/food-block grill=true}}
+    {{/unless}}
   {{/each}}
 </ul>
 
@@ -30,7 +30,7 @@
 
   <div class="form-group">
     <label for="grilled">Grill It?</label><br>
-    <input type="radio" name="grilled" value="1" checked> Throw it on the grill!<br>
+    <input type="radio" name="grilled" value="1">Throw it on the grill!<br>
     <input type="radio" name="grilled" value="0">Save it for later
   </div>
 
