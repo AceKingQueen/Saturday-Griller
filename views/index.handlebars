@@ -1,8 +1,27 @@
+
+<div class="add-container">
 <h1>Let's Grill This!</h1>
+{{!-- <h2>Add a food</h2> --}}
+<form class="create-form">
+<p>
+Add a food item and decide whether you want to throw it on the grill or save it for later. </p>  <p>Make changes to either list using the buttons.</p>
+  <div class="form-group">
+    <label for="ca">Food Item:</label>
+    <input type="text" id="ca" name="name">
+  </div>
+
+  <div class="form-group">
+    <input type="radio" name="grilled" value="1"> Throw it on the grill
+    <input type="radio" name="grilled" value="0"> Save it for later
+  </div>
+
+  <button type="submit">Add Food</button>
+</form>
+</div>
 
 <div class="grill-container">
 
-<h2>Throw it on the grill</h2>
+{{!-- <h2>Throw it on the grill</h2> --}}
 
 <ul id="grill">
   {{#each foods}}
@@ -15,7 +34,7 @@
 
 <div class="save-container">
 
-<h2>Save it for later</h2>
+{{!-- <h2>Save it for later</h2> --}}
 
 <ul id="save">
   {{#each foods}}
@@ -30,20 +49,4 @@
 
 </div>
 
-<div class="add-container">
-<h2>Add a food</h2>
-<form class="create-form">
 
-  <div class="form-group">
-    <label for="ca">Food Item:</label>
-    <input type="text" id="ca" name="name">
-  </div>
-
-  <div class="form-group">
-    <input type="radio" name="grilled" value="1"> Throw it on the grill
-    <input type="radio" name="grilled" value="0"> Save it for later
-  </div>
-
-  <button type="submit">Add Food</button>
-</form>
-</div>

@@ -1,9 +1,12 @@
 body {
   font-family: 'Julius Sans One', sans-serif;
+  text-align: center;
 }
 
 .grill-container {
   background-image: url("grill.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .save-container {
@@ -13,27 +16,30 @@ body {
 .add-container {
   background-color: aquamarine;
   font-family: 'Homemade Apple', cursive;
-
 }
 
 button.change-grill {
   background-color: lightblue;
+  font-family: 'Julius Sans One', sans-serif;
+
 }
 
 button.delete-food {
   background-color: lightcoral;
+  font-family: 'Julius Sans One', sans-serif;
+
 
 }
 
-ul.save {
-  color: black;
-
+ul {
+  /* background-color: lightgray; */
+  color: white;
+  font-size: 28px;
+  list-style-type: none;
 }
-
 
 li {
   margin: 2%;
-  color: whitesmoke;
   padding-bottom: 2%;
   /* background: #faebd7; */
 }
