@@ -1,7 +1,46 @@
+body {
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+.grill-container {
+  background-image: url("grill.jpg");
+}
+
+.save-container {
+  background-image: url("fridge.jpg");
+}
+
+.add-container {
+  background-color: aquamarine;
+  font-family: 'Homemade Apple', cursive;
+
+}
+
+button.change-grill {
+  background-color: lightblue;
+}
+
+button.delete-food {
+  background-color: lightcoral;
+
+}
+
+ul.save {
+  color: black;
+
+}
+
+
 li {
-  padding: 5px;
-  margin: 5px;
-  background: #faebd7;
+  margin: 2%;
+  color: whitesmoke;
+  padding-bottom: 2%;
+  /* background: #faebd7; */
+}
+
+h2 {
+  color: whitesmoke;
+  padding: 2%;
 }
 
 .label {
