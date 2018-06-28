@@ -10,10 +10,6 @@ The user can also make changes to either list using the buttons next to each foo
 
 ---
 
-See the attached video for a run through of the app.
-
-[user.mp4](quiver-file-url/65C68DA71B9B6600EB9D16E47547893E.mp4)
-
 ---
 ### Saturday-Griller Directory Structure
 
