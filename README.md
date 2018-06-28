@@ -1,4 +1,4 @@
-###[Saturday Griller](https://calm-inlet-44967.herokuapp.com/)
+[Saturday Griller](https://calm-inlet-44967.herokuapp.com/)
 
 Saturday-Griller is a full stack application that lets users input the names of foods they'd like to grill. It is built using the MVC design pattern. 
 
