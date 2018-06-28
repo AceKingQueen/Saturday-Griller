@@ -15,6 +15,8 @@ See the attached video for a run through of the app.
 [user.mp4](quiver-file-url/65C68DA71B9B6600EB9D16E47547893E.mp4)
 
 ---
-###Saturday-Griller Directory Structure
+### Saturday-Griller Directory Structure
+
+<img width="319" alt="grilling_directory_structure" src="https://user-images.githubusercontent.com/34424478/42044404-f0709056-7ac6-11e8-9a48-50a47fe7a7f2.png">
 
 
