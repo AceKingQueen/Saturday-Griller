@@ -9,8 +9,6 @@ The added food item is then stored in a database, whether grilled or saved for l
 The user can also make changes to either list using the buttons next to each food item.
 
 ---
-
----
 ### Saturday-Griller Directory Structure
 
 <img width="319" alt="grilling_directory_structure" src="https://user-images.githubusercontent.com/34424478/42044404-f0709056-7ac6-11e8-9a48-50a47fe7a7f2.png">
