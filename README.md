@@ -4,9 +4,11 @@ Saturday-Griller is a full stack application that lets users input the names of 
 
 I would spend every Saturday grilling, if I could. I love figuring out how to grill new foods and perfecting old recipes. 
 
-This website has simple styling on the front end, because the real work was on the back end. This is the first full stack application I've built and deployed. I struggled with [Handlebars](https://handlebarsjs.com/)'s templating code at first, but working through these issues prepared me to take on related concepts I'd need for working with React.
+This website has simple styling on the front end, because the real work was on the back end. This is the first full stack application I've built and deployed. I struggled with [Handlebars](https://handlebarsjs.com/)'s templating code at first, but working through these issues prepared me to take on related concepts I'd need for working with React. 
 
 _My biggest problem_ in building this website was staying organized! The full-stack folder structure looks daunting at first, but it's important to know what info is going where when working building a site front to back. 
+
+[Use the Saturday Griller here](https://calm-inlet-44967.herokuapp.com/)
 
 ---
 ### How to Use
