@@ -12,6 +12,8 @@ body {
 .save-container {
   background-image: url("fridge.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+
 }
 
 .add-container {
@@ -31,7 +33,6 @@ button.delete-food {
 }
 
 ul {
-  /* background-color: lightgray; */
   color: white;
   font-size: 28px;
   list-style-type: none;
@@ -39,8 +40,9 @@ ul {
 
 li {
   margin: 2%;
+  margin-top: 3%;
   padding-bottom: 2%;
-  /* background: #faebd7; */
+  color: white;
 }
 
 h2 {
