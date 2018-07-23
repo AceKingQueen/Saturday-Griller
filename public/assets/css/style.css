@@ -11,6 +11,7 @@ body {
 
 .save-container {
   background-image: url("fridge.jpg");
+  background-size: cover;
 }
 
 .add-container {
@@ -27,8 +28,6 @@ button.change-grill {
 button.delete-food {
   background-color: lightcoral;
   font-family: 'Julius Sans One', sans-serif;
-
-
 }
 
 ul {
